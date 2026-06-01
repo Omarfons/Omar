@@ -1,2 +1,79 @@
-# Omar
-Universitario Inge sistemas
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omar Yesith Fonseca | Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h2>Omar Fonseca</h2>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="inicio" class="hero">
+    <h1>Hola, soy Omar Yesith Fonseca</h1>
+    <p>Estudiante de programación y desarrollo web.</p>
+    <a href="#contacto" class="btn">Contáctame</a>
+</section>
+
+<section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>
+        Soy estudiante de programación con conocimientos en HTML y CSS.
+        Me apasiona el desarrollo web y estoy construyendo proyectos para
+        mejorar mis habilidades y ayudar a negocios a tener presencia en internet.
+    </p>
+</section>
+
+<section id="habilidades">
+    <h2>Habilidades</h2>
+    <div class="skills">
+        <div class="card">HTML5</div>
+        <div class="card">CSS3</div>
+        <div class="card">Diseño Responsive</div>
+        <div class="card">GitHub</div>
+    </div>
+</section>
+
+<section id="proyectos">
+    <h2>Proyectos</h2>
+
+    <div class="project">
+        <h3>Página para Barbería</h3>
+        <p>Sitio web moderno para una barbería local.</p>
+    </div>
+
+    <div class="project">
+        <h3>Página para Restaurante</h3>
+        <p>Diseño web con menú digital y contacto.</p>
+    </div>
+
+    <div class="project">
+        <h3>Portafolio Personal</h3>
+        <p>Mi sitio web profesional.</p>
+    </div>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p>WhatsApp: 3208875054</p>
+    <p>Email: yesidplazas@gmail.com</p>
+</section>
+
+<footer>
+    <p>© 2026 Omar Yesith Fonseca</p>
+</footer>
+
+</body>
+</html>
